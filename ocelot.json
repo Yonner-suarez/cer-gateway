@@ -1,0 +1,58 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/Inventario/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8200
+        }
+      ],
+      "UpstreamPathTemplate": "/inventario/v1/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "inventario"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Cliente/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8400
+        }
+      ],
+      "UpstreamPathTemplate": "/cliente/v1/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "cliente"
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "inventario",
+      "Config": [
+        {
+          "Name": "Inventario API",
+          "Version": "v1",
+          "Url": "https://localhost:8200/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "cliente",
+      "Config": [
+        {
+          "Name": "Cliente API",
+          "Version": "v1",
+          "Url": "https://localhost:8400/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7242"
+  }
+}

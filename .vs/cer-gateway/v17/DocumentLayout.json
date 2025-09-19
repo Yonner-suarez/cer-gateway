@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\ocelot.dev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:ocelot.dev.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\aggregates\\presupuestosaggregates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:aggregates\\presupuestosaggregates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\models\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:models\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\utils\\headerdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:utils\\headerdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\utils\\nogzipdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:utils\\nogzipdelegatinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\utils\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:utils\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\aggregates\\proveedoresaggregates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:aggregates\\proveedoresaggregates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\utils\\fileconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:utils\\fileconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\utils\\claimauthorizerdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:utils\\claimauthorizerdecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|c:\\users\\yonne\\onedrive\\desktop\\cer project\\cer-gateway\\cer-gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{69F1B460-D303-4807-9259-93A45C941718}|cer-gateway.csproj|solutionrelative:cer-gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2bb8137c-bac8-4d04-820a-c52b5d5b82da}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeaderDelegatingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\HeaderDelegatingHandler.cs",
+              "RelativeDocumentMoniker": "Utils\\HeaderDelegatingHandler.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\HeaderDelegatingHandler.cs",
+              "RelativeToolTip": "Utils\\HeaderDelegatingHandler.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:38:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeneralResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Models\\GeneralResponse.cs",
+              "RelativeDocumentMoniker": "Models\\GeneralResponse.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Models\\GeneralResponse.cs",
+              "RelativeToolTip": "Models\\GeneralResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:37:05.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PresupuestosAggregates.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Aggregates\\PresupuestosAggregates.cs",
+              "RelativeDocumentMoniker": "Aggregates\\PresupuestosAggregates.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Aggregates\\PresupuestosAggregates.cs",
+              "RelativeToolTip": "Aggregates\\PresupuestosAggregates.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:34:05.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ocelot.json",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\ocelot.json",
+              "RelativeToolTip": "ocelot.json",
+              "ViewState": "AQIAACcAAAAAAAAAAAAtwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T19:42:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.dev.json",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\ocelot.dev.json",
+              "RelativeDocumentMoniker": "ocelot.dev.json",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\ocelot.dev.json",
+              "RelativeToolTip": "ocelot.dev.json",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAADsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T19:43:03.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAowEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:29:11.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoGzipDelegatingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\NoGzipDelegatingHandler.cs",
+              "RelativeDocumentMoniker": "Utils\\NoGzipDelegatingHandler.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\NoGzipDelegatingHandler.cs",
+              "RelativeToolTip": "Utils\\NoGzipDelegatingHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:39:15.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T19:51:19.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Utils\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Utils\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:39:26.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProveedoresAggregates.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Aggregates\\ProveedoresAggregates.cs",
+              "RelativeDocumentMoniker": "Aggregates\\ProveedoresAggregates.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Aggregates\\ProveedoresAggregates.cs",
+              "RelativeToolTip": "Aggregates\\ProveedoresAggregates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:36:33.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T19:43:22.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\FileConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "Utils\\FileConfigurationExtensions.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\FileConfigurationExtensions.cs",
+              "RelativeToolTip": "Utils\\FileConfigurationExtensions.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:38:22.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClaimAuthorizerDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\ClaimAuthorizerDecorator.cs",
+              "RelativeDocumentMoniker": "Utils\\ClaimAuthorizerDecorator.cs",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\Utils\\ClaimAuthorizerDecorator.cs",
+              "RelativeToolTip": "Utils\\ClaimAuthorizerDecorator.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:37:51.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "cer-gateway.csproj",
+              "DocumentMoniker": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\cer-gateway.csproj",
+              "RelativeDocumentMoniker": "cer-gateway.csproj",
+              "ToolTip": "C:\\Users\\Yonne\\OneDrive\\Desktop\\cer project\\cer-gateway\\cer-gateway.csproj",
+              "RelativeToolTip": "cer-gateway.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T19:28:11.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XihZGDCrtsVBCsyuWs9eM+RN8bfHBPTeQSD4Q8VbXxI=",
+  "Source": "cer-gateway",
+  "BasePath": "_content/cer-gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,64 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{ApiInventario}"
+        }
+      ],
+      "UpstreamPathTemplate": "/inventario/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "inventario",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowdScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{ApiUsuarios}"
+        }
+      ],
+      "UpstreamPathTemplate": "/usuarios/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "usuarios"     
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "inventario",
+      "Config": [
+        {
+          "Name": "Inventario API",
+          "Version": "v1",
+          "Url": "https://localhost:8200/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "usuarios",
+      "Config": [
+        {
+          "Name": "Usuarios API",
+          "Version": "v1",
+          "Url": "https://localhost:8600/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:17166",
+    "RequestIdKey": "OcRequestId",
+    "Hosts": {
+      "ApiUsuarios": "https://localhost:8600",
+      "ApiInventario": "http://localhost:8200"
+    }
+  }
+}

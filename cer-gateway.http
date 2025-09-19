@@ -1,0 +1,6 @@
+@cer_gateway_HostAddress = http://localhost:5144
+
+GET {{cer_gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
