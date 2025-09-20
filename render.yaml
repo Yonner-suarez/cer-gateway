@@ -1,8 +1,7 @@
 services:
   - type: web
     name: cer-gateway
-    env: dotnet
-    buildCommand: "dotnet publish -c Release -o ./publish"
-    startCommand: "dotnet ./publish/CerGateway.dll"
+    env: docker
     plan: free
     region: oregon
+    dockerfilePath: ./Dockerfile
