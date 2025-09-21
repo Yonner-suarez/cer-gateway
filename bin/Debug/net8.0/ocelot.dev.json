@@ -10,11 +10,7 @@
       ],
       "UpstreamPathTemplate": "/inventario/v1/{everything}",
       "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
-      "SwaggerKey": "inventario",
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowdScopes": []
-      }
+      "SwaggerKey": "inventario"
     },
     {
       "DownstreamPathTemplate": "/api/v1/{everything}",
@@ -26,7 +22,43 @@
       ],
       "UpstreamPathTemplate": "/usuarios/v1/{everything}",
       "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
-      "SwaggerKey": "usuarios"     
+      "SwaggerKey": "usuarios"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{ApiCatalogoProductos}"
+        }
+      ],
+      "UpstreamPathTemplate": "/catalogoProductos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "catalogoProductos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{ApiPedidos}"
+        }
+      ],
+      "UpstreamPathTemplate": "/pedidos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "pedidos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "{ApiPagos}"
+        }
+      ],
+      "UpstreamPathTemplate": "/pagos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "pagos"
     }
   ],
 
@@ -37,7 +69,7 @@
         {
           "Name": "Inventario API",
           "Version": "v1",
-          "Url": "https://localhost:8200/swagger/v1/swagger.json"
+          "Url": "https://localhost:8000/swagger/v1/swagger.json"
         }
       ]
     },
@@ -47,7 +79,37 @@
         {
           "Name": "Usuarios API",
           "Version": "v1",
+          "Url": "https://localhost:8200/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "catalogoProductos",
+      "Config": [
+        {
+          "Name": "Catálogo Productos API",
+          "Version": "v1",
+          "Url": "https://localhost:8400/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "pedidos",
+      "Config": [
+        {
+          "Name": "Pedidos API",
+          "Version": "v1",
           "Url": "https://localhost:8600/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "pagos",
+      "Config": [
+        {
+          "Name": "Pagos API",
+          "Version": "v1",
+          "Url": "https://localhost:8800/swagger/v1/swagger.json"
         }
       ]
     }
@@ -57,8 +119,11 @@
     "BaseUrl": "http://localhost:17166",
     "RequestIdKey": "OcRequestId",
     "Hosts": {
-      "ApiUsuarios": "https://localhost:8600",
-      "ApiInventario": "http://localhost:8200"
+      "ApiInventario": "https://localhost:8000",
+      "ApiUsuarios": "https://localhost:8200",
+      "ApiCatalogoProductos": "http://localhost:8400",
+      "ApiPedidos": "https://localhost:8600",
+      "ApiPagos": "https://localhost:8800"
     }
   }
 }

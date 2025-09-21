@@ -10,11 +10,7 @@
       ],
       "UpstreamPathTemplate": "/inventario/v1/{everything}",
       "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
-      "SwaggerKey": "inventario",
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "Bearer",
-        "AllowdScopes": []
-      }
+      "SwaggerKey": "inventario"
     },
     {
       "DownstreamPathTemplate": "/api/v1/{everything}",
@@ -123,11 +119,11 @@
     "BaseUrl": "http://localhost:17166",
     "RequestIdKey": "OcRequestId",
     "Hosts": {
-      "ApiInventario": "http://localhost:800",
+      "ApiInventario": "https://localhost:8000",
       "ApiUsuarios": "https://localhost:8200",
       "ApiCatalogoProductos": "http://localhost:8400",
-      "ApiPedidos": "http://localhost:8600",
-      "ApiPagos": "http://localhost:8800"
+      "ApiPedidos": "https://localhost:8600",
+      "ApiPagos": "https://localhost:8800"
     }
   }
 }
