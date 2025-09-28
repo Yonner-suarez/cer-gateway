@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cer-gateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a74e6b96dcf2713555d44991e0124b64ff9cf620")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103453ff3d176e8bd6b514d24bf52725f5e0cf9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("cer-gateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cer-gateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

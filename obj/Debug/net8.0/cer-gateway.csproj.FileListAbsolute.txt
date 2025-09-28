@@ -56,3 +56,4 @@ C:\Users\Yonne\OneDrive\Desktop\cer project\cer-gateway\bin\Debug\net8.0\runtime
 C:\Users\Yonne\OneDrive\Desktop\cer project\cer-gateway\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\Yonne\OneDrive\Desktop\cer project\cer-gateway\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Yonne\OneDrive\Desktop\cer project\cer-gateway\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Yonne\OneDrive\Desktop\cer project\cer-gateway\obj\Debug\net8.0\cer-gateway.sourcelink.json
