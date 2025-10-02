@@ -5,34 +5,3 @@ services:
     plan: free
     region: oregon
     dockerfilePath: ./Dockerfile
-    envVars:
-      - key: ASPNETCORE_ENVIRONMENT
-        value: Production
-
-      # Inventario
-      - key: INVENTARIO_HOST
-      - key: INVENTARIO_PORT
-      - key: INVENTARIO_SWAGGER_URL
-
-      # Usuarios
-      - key: USUARIOS_HOST
-      - key: USUARIOS_PORT
-      - key: USUARIOS_SWAGGER_URL
-
-      # Catálogo
-      - key: CATALOGO_HOST
-      - key: CATALOGO_PORT
-      - key: CATALOGO_SWAGGER_URL
-
-      # Pedidos
-      - key: PEDIDOS_HOST
-      - key: PEDIDOS_PORT
-      - key: PEDIDOS_SWAGGER_URL
-
-      # Pagos
-      - key: PAGOS_HOST
-      - key: PAGOS_PORT
-      - key: PAGOS_SWAGGER_URL
-
-      # Gateway
-      - key: GATEWAY_BASE_URL
