@@ -1,0 +1,131 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "${INVENTARIO_HOST}",
+          "Port": "$",
+          { "INVENTARIO_PORT" }
+        }
+      ],
+      "UpstreamPathTemplate": "/inventario/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "inventario"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "${USUARIOS_HOST}",
+          "Port": "$",
+          { "USUARIOS_PORT" }
+        }
+      ],
+      "UpstreamPathTemplate": "/usuarios/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "usuarios"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "${CATALOGO_HOST}",
+          "Port": "$",
+          { "CATALOGO_PORT" }
+        }
+      ],
+      "UpstreamPathTemplate": "/catalogoProductos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "catalogoProductos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "${PEDIDOS_HOST}",
+          "Port": "$",
+          { "PEDIDOS_PORT" }
+        }
+      ],
+      "UpstreamPathTemplate": "/pedidos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "pedidos"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "${PAGOS_HOST}",
+          "Port": "$",
+          { "PAGOS_PORT" }
+        }
+      ],
+      "UpstreamPathTemplate": "/pagos/v1/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET", "DELETE", "OPTIONS", "PATCH" ],
+      "SwaggerKey": "pagos"
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "inventario",
+      "Config": [
+        {
+          "Name": "Inventario API",
+          "Version": "v1",
+          "Url": "${INVENTARIO_SWAGGER_URL}"
+        }
+      ]
+    },
+    {
+      "Key": "usuarios",
+      "Config": [
+        {
+          "Name": "Usuarios API",
+          "Version": "v1",
+          "Url": "${USUARIOS_SWAGGER_URL}"
+        }
+      ]
+    },
+    {
+      "Key": "catalogoProductos",
+      "Config": [
+        {
+          "Name": "Catálogo Productos API",
+          "Version": "v1",
+          "Url": "${CATALOGO_SWAGGER_URL}"
+        }
+      ]
+    },
+    {
+      "Key": "pedidos",
+      "Config": [
+        {
+          "Name": "Pedidos API",
+          "Version": "v1",
+          "Url": "${PEDIDOS_SWAGGER_URL}"
+        }
+      ]
+    },
+    {
+      "Key": "pagos",
+      "Config": [
+        {
+          "Name": "Pagos API",
+          "Version": "v1",
+          "Url": "${PAGOS_SWAGGER_URL}"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "${GATEWAY_BASE_URL}"
+  }
+}
