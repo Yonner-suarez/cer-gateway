@@ -4,51 +4,35 @@ services:
     env: docker
     plan: free
     region: oregon
-    dockerfilePath: ./dockerfile
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
 
       # Inventario
       - key: INVENTARIO_HOST
-        value: inventario-api.onrender.com
       - key: INVENTARIO_PORT
-        value: 443
       - key: INVENTARIO_SWAGGER_URL
-        value: https://inventario-api.onrender.com/swagger/v1/swagger.json
 
       # Usuarios
       - key: USUARIOS_HOST
-        value: usuarios-api.onrender.com
       - key: USUARIOS_PORT
-        value: 443
       - key: USUARIOS_SWAGGER_URL
-        value: https://usuarios-api.onrender.com/swagger/v1/swagger.json
 
       # Catálogo
       - key: CATALOGO_HOST
-        value: catalogo-api.onrender.com
       - key: CATALOGO_PORT
-        value: 443
       - key: CATALOGO_SWAGGER_URL
-        value: https://catalogo-api.onrender.com/swagger/v1/swagger.json
 
       # Pedidos
       - key: PEDIDOS_HOST
-        value: pedidos-api.onrender.com
       - key: PEDIDOS_PORT
-        value: 443
       - key: PEDIDOS_SWAGGER_URL
-        value: https://pedidos-api.onrender.com/swagger/v1/swagger.json
 
       # Pagos
       - key: PAGOS_HOST
-        value: pagos-api.onrender.com
       - key: PAGOS_PORT
-        value: 443
       - key: PAGOS_SWAGGER_URL
-        value: https://pagos-api.onrender.com/swagger/v1/swagger.json
 
       # Gateway
       - key: GATEWAY_BASE_URL
-        value: https://cer-gateway.onrender.com
