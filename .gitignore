@@ -33,3 +33,6 @@ config/
 # Ignorar configuraciones locales
 appsettings*.json
 !appsettings.example.json
+
+# Ignorar configuración de Ocelot
+ocelot*.json
