@@ -36,3 +36,4 @@ appsettings*.json
 
 # Ignorar configuración de Ocelot
 ocelot*.json
+!ocelot.example.json
