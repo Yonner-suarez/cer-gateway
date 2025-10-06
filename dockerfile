@@ -34,4 +34,4 @@ ENV ASPNETCORE_URLS=http://+:8080
 # Al iniciar el contenedor:
 # 1. Sustituye variables de entorno en ocelot.example.json -> ocelot.json
 # 2. Lanza la app
-CMD envsubst < /app/ocelot.json > /app/ocelot.json && dotnet cer-gateway.dll
+CMD envsubst < ocelot.example.json.tmpl > /app/ocelot.json && dotnet cer-gateway.dll
