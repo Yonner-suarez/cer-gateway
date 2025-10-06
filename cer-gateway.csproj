@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ocelot.example.json.tmpl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ocelot.example.json.tmpl" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 	<PackageReference Include="Ocelot" Version="16.0.1" />
 	<PackageReference Include="MMLib.SwaggerForOcelot" Version="3.2.1" />

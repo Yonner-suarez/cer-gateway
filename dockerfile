@@ -25,7 +25,8 @@ RUN apt-get update && apt-get install -y gettext-base && rm -rf /var/lib/apt/lis
 COPY --from=build /app/publish .
 
 # Copiar la plantilla de Ocelot
-COPY ocelot.example.json /app/ocelot.example.json
+COPY ocelot.example.json.tmpl /app/ocelot.json
+
 
 # Configurar la URL de escucha de ASP.NET
 ENV ASPNETCORE_URLS=http://+:8080

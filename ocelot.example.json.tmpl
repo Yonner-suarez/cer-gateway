@@ -6,8 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "${INVENTARIO_HOST}",
-          "Port": "$",
-          { "INVENTARIO_PORT" }
+          "Port": ${INVENTARIO_PORT}
         }
       ],
       "UpstreamPathTemplate": "/inventario/v1/{everything}",
@@ -20,8 +19,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "${USUARIOS_HOST}",
-          "Port": "$",
-          { "USUARIOS_PORT" }
+          "Port": ${USUARIOS_PORT}
         }
       ],
       "UpstreamPathTemplate": "/usuarios/v1/{everything}",
@@ -34,8 +32,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "${CATALOGO_HOST}",
-          "Port": "$",
-          { "CATALOGO_PORT" }
+          "Port": ${CATALOGO_PORT}
         }
       ],
       "UpstreamPathTemplate": "/catalogoProductos/v1/{everything}",
@@ -48,8 +45,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "${PEDIDOS_HOST}",
-          "Port": "$",
-          { "PEDIDOS_PORT" }
+          "Port": ${PEDIDOS_PORT}
         }
       ],
       "UpstreamPathTemplate": "/pedidos/v1/{everything}",
@@ -62,8 +58,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "${PAGOS_HOST}",
-          "Port": "$",
-          { "PAGOS_PORT" }
+          "Port": ${PAGOS_PORT}
         }
       ],
       "UpstreamPathTemplate": "/pagos/v1/{everything}",
