@@ -37,23 +37,7 @@ try
     builder.Services.AddSwaggerForOcelot(builder.Configuration, o =>
     {
         o.GenerateDocsForAggregates = true;
-    });
-
-    // 🔹 JWT Authentication
-    var key = Encoding.ASCII.GetBytes(builder.Configuration["Token:Bearer"] ?? "");
-    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        .AddJwtBearer(x =>
-        {
-            x.RequireHttpsMetadata = false;
-            x.SaveToken = true;
-            x.TokenValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(key),
-                ValidateIssuer = false,
-                ValidateAudience = false
-            };
-        });
+    });   
 
     // 🔹 CORS
     builder.Services.AddCors(options =>
