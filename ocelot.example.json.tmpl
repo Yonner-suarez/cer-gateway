@@ -5,7 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "${INVENTARIO_HOST}"
+          "Host": "${INVENTARIO_HOST}",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/inventario/v1/{everything}",
@@ -17,7 +18,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "${USUARIOS_HOST}"
+          "Host": "${USUARIOS_HOST}",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/usuarios/v1/{everything}",
@@ -29,7 +31,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "${CATALOGO_HOST}"
+          "Host": "${CATALOGO_HOST}",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/catalogoProductos/v1/{everything}",
@@ -41,7 +44,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "${PEDIDOS_HOST}"
+          "Host": "${PEDIDOS_HOST}",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/pedidos/v1/{everything}",
@@ -53,7 +57,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "${PAGOS_HOST}"
+          "Host": "${PAGOS_HOST}",
+          "Port": 443
         }
       ],
       "UpstreamPathTemplate": "/pagos/v1/{everything}",
